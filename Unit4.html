@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Unit 4 - Network Layer</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI;
+}
+
+body{
+background:linear-gradient(135deg,#667eea,#764ba2);
+color:white;
+min-height:100vh;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:rgba(255,255,255,0.1);
+backdrop-filter:blur(10px);
+}
+
+nav h1{
+font-size:26px;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+font-weight:bold;
+}
+
+/* MAIN CONTAINER */
+
+.container{
+width:85%;
+margin:auto;
+margin-top:40px;
+}
+
+/* CONTENT CARD */
+
+.card{
+background:rgba(255,255,255,0.15);
+backdrop-filter:blur(10px);
+padding:30px;
+border-radius:15px;
+box-shadow:0 10px 20px rgba(0,0,0,0.3);
+}
+
+.card h2{
+margin-bottom:15px;
+}
+
+.card p{
+line-height:1.7;
+font-size:15px;
+margin-bottom:15px;
+}
+
+/* UNIT NAVIGATION */
+
+.nav-buttons{
+margin-top:40px;
+display:flex;
+flex-wrap:wrap;
+gap:15px;
+justify-content:center;
+}
+
+.btn{
+text-decoration:none;
+padding:10px 20px;
+border-radius:25px;
+background:#ff4b2b;
+color:white;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#ffcc00;
+color:black;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+margin-top:50px;
+padding:20px;
+opacity:0.8;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav>
+<h1><i class="fa-solid fa-network-wired"></i> Computer Networks</h1>
+<a href="index.html">Home</a>
+</nav>
+
+<div class="container">
+
+<div class="card">
+
+<h2><i class="fa-solid fa-route"></i> Unit 4: Network Layer and Transport Layer</h2>
+
+<p>
+The network layer is responsible for routing data packets from the source to the destination across multiple networks. It determines the best path for data transmission and ensures packets reach the correct destination.
+</p>
+
+<p>
+Logical addressing uses IP addresses to uniquely identify devices in a network. Internetworking refers to connecting multiple networks together to form a larger network such as the Internet.
+</p>
+
+<p>
+Tunneling is a technique used to send data securely across networks by encapsulating packets within other packets. Address mapping converts logical addresses into physical addresses for communication within local networks.
+</p>
+
+<p>
+ICMP (Internet Control Message Protocol) is used for error reporting and diagnostics in networking. IGMP (Internet Group Management Protocol) manages multicast group memberships in networks.
+</p>
+
+<p>
+Forwarding is the process of sending packets from one router to another toward their destination. Unicast routing protocols determine the best path for sending packets to a single destination, while multicast routing protocols deliver data to multiple receivers simultaneously.
+</p>
+
+<p>
+The transport layer ensures reliable data delivery between applications running on different devices. It manages segmentation, reassembly, and process-to-process communication.
+</p>
+
+<p>
+UDP (User Datagram Protocol) is a connectionless protocol that provides fast data transmission but does not guarantee reliability. TCP (Transmission Control Protocol) is connection-oriented and ensures reliable and ordered delivery of data. SCTP is another transport protocol that supports multi-stream communication.
+</p>
+
+<p>
+Data traffic management controls network traffic to maintain efficient data transmission. Congestion occurs when network resources are overloaded. Congestion control techniques regulate transmission rates to prevent network overload.
+</p>
+
+<p>
+Quality of Service (QoS) ensures network services maintain required performance levels such as bandwidth, delay, and reliability. Integrated services and differentiated services are two approaches used to manage QoS in networks.
+</p>
+
+</div>
+
+<!-- NAVIGATION TO OTHER UNITS -->
+
+<div class="nav-buttons">
+
+<a href="Unit1.html" class="btn">Unit 1</a>
+<a href="Unit2.html" class="btn">Unit 2</a>
+<a href="Unit3.html" class="btn">Unit 3</a>
+<a href="Unit5.html" class="btn">Unit 5</a>
+
+</div>
+
+</div>
+
+<footer>
+BCA Web Technology Project | Computer Networks
+</footer>
+
+</body>
+</html>

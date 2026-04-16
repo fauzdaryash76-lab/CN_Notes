@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Unit 1 - Computer Networks</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI;
+}
+
+body{
+background:linear-gradient(135deg,#667eea,#764ba2);
+color:white;
+min-height:100vh;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:rgba(255,255,255,0.1);
+backdrop-filter:blur(10px);
+}
+
+nav h1{
+font-size:26px;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+font-weight:bold;
+}
+
+/* CONTENT AREA */
+
+.container{
+width:85%;
+margin:auto;
+margin-top:40px;
+}
+
+/* UNIT CARD */
+
+.card{
+background:rgba(255,255,255,0.15);
+backdrop-filter:blur(10px);
+padding:30px;
+border-radius:15px;
+box-shadow:0 10px 20px rgba(0,0,0,0.3);
+}
+
+.card h2{
+margin-bottom:15px;
+}
+
+.card p{
+line-height:1.7;
+font-size:15px;
+margin-bottom:15px;
+}
+
+/* NAVIGATION BUTTONS */
+
+.nav-buttons{
+margin-top:40px;
+display:flex;
+flex-wrap:wrap;
+gap:15px;
+justify-content:center;
+}
+
+.btn{
+text-decoration:none;
+padding:10px 20px;
+border-radius:25px;
+background:#ff4b2b;
+color:white;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#ffcc00;
+color:black;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+margin-top:50px;
+padding:20px;
+opacity:0.8;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav>
+<h1><i class="fa-solid fa-network-wired"></i> Computer Networks</h1>
+<a href="index.html">Home</a>
+</nav>
+
+<div class="container">
+
+<div class="card">
+
+<h2><i class="fa-solid fa-globe"></i> Unit 1: Introduction to Networks</h2>
+
+<p>
+A computer network is a collection of interconnected devices such as computers, servers, printers, and mobile devices that communicate with each other to share resources and information. Networking allows users to exchange data, share hardware resources, and access services over a communication medium.
+</p>
+
+<p>
+Networks can be classified into different types such as Local Area Network (LAN), Metropolitan Area Network (MAN), and Wide Area Network (WAN) depending on their geographical coverage. Networking improves communication efficiency and supports distributed computing.
+</p>
+
+<p>
+The Internet is the largest global network that connects millions of private, public, academic, business, and government networks. It enables communication and information sharing worldwide through services such as web browsing, email, file transfer, and video communication.
+</p>
+
+<p>
+Protocols are defined rules and procedures that allow communication between network devices. They determine how data is formatted, transmitted, and received across the network. Examples include HTTP, FTP, SMTP, and TCP/IP.
+</p>
+
+<p>
+The OSI (Open Systems Interconnection) model is a conceptual framework that describes how data communication occurs in a network. It consists of seven layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application.
+</p>
+
+<p>
+The TCP/IP suite is the most widely used protocol stack in modern networking. It contains four layers: Network Interface, Internet, Transport, and Application layer. It enables reliable communication and routing across networks.
+</p>
+
+<p>
+Addressing in computer networks identifies devices uniquely so data can reach the correct destination. Each device is assigned an IP address that acts as its identification number.
+</p>
+
+<p>
+Signals are used to transmit data across communication channels. Analog signals are continuous signals, while digital signals represent data using binary values (0 and 1). Digital transmission is generally more reliable and less affected by noise.
+</p>
+
+</div>
+
+<!-- UNIT NAVIGATION -->
+
+<div class="nav-buttons">
+
+<a href="Unit2.html" class="btn">Unit 2</a>
+<a href="Unit3.html" class="btn">Unit 3</a>
+<a href="Unit4.html" class="btn">Unit 4</a>
+<a href="Unit5.html" class="btn">Unit 5</a>
+
+</div>
+
+</div>
+
+<footer>
+BCA Web Technology Project | Computer Networks 
+</footer>
+
+</body>
+</html>

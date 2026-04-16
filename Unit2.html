@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Unit 2 - Physical Layer</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI;
+}
+
+body{
+background:linear-gradient(135deg,#667eea,#764ba2);
+color:white;
+min-height:100vh;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:rgba(255,255,255,0.1);
+backdrop-filter:blur(10px);
+}
+
+nav h1{
+font-size:26px;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+font-weight:bold;
+}
+
+/* CONTENT AREA */
+
+.container{
+width:85%;
+margin:auto;
+margin-top:40px;
+}
+
+/* CARD */
+
+.card{
+background:rgba(255,255,255,0.15);
+backdrop-filter:blur(10px);
+padding:30px;
+border-radius:15px;
+box-shadow:0 10px 20px rgba(0,0,0,0.3);
+}
+
+.card h2{
+margin-bottom:15px;
+}
+
+.card p{
+line-height:1.7;
+font-size:15px;
+margin-bottom:15px;
+}
+
+/* NAV BUTTONS */
+
+.nav-buttons{
+margin-top:40px;
+display:flex;
+flex-wrap:wrap;
+gap:15px;
+justify-content:center;
+}
+
+.btn{
+text-decoration:none;
+padding:10px 20px;
+border-radius:25px;
+background:#ff4b2b;
+color:white;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#ffcc00;
+color:black;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+margin-top:50px;
+padding:20px;
+opacity:0.8;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav>
+<h1><i class="fa-solid fa-network-wired"></i> Computer Networks</h1>
+<a href="index.html">Home</a>
+</nav>
+
+<div class="container">
+
+<div class="card">
+
+<h2><i class="fa-solid fa-cable-car"></i> Unit 2: Physical Layer & Data Link Layer</h2>
+
+<p>
+The physical layer is the lowest layer of the OSI model and is responsible for transmitting raw bits over a physical communication medium. It defines the hardware specifications, transmission techniques, and physical characteristics of network devices including cables, connectors, and signal transmission methods.
+</p>
+
+<p>
+Digital transmission refers to sending digital data in the form of binary signals through a communication medium. Digital signals provide higher reliability and accuracy because they are less affected by noise and interference compared to analog signals.
+</p>
+
+<p>
+Multiplexing is a technique used to combine multiple signals and transmit them over a single communication channel. It improves bandwidth utilization and reduces communication costs. Common multiplexing techniques include Time Division Multiplexing (TDM), Frequency Division Multiplexing (FDM), and Wavelength Division Multiplexing (WDM).
+</p>
+
+<p>
+Transmission media are the physical paths used for data communication. Guided media include twisted pair cables, coaxial cables, and fiber optic cables, while unguided media include wireless communication technologies such as radio waves, microwaves, and infrared signals.
+</p>
+
+<p>
+Circuit switched networks establish a dedicated communication path between sender and receiver before data transmission begins. Traditional telephone networks use circuit switching. Datagram networks transmit packets independently without establishing a dedicated path, which is the approach used by the Internet. Virtual circuit networks establish a logical path before data transmission.
+</p>
+
+<p>
+The data link layer ensures reliable communication between directly connected nodes. It performs functions such as framing, error detection, flow control, and synchronization of data transmission.
+</p>
+
+<p>
+Block coding improves reliability by adding redundant bits to data blocks. Cyclic codes and checksum methods are used for error detection in transmitted data.
+</p>
+
+<p>
+Framing divides a stream of bits into smaller units called frames. Flow control ensures the sender does not send data faster than the receiver can process. Error control detects and corrects errors during transmission.
+</p>
+
+<p>
+Noiseless channels assume ideal communication conditions where errors do not occur. Noisy channels represent real communication environments where signals may be affected by interference and require error detection and correction mechanisms.
+</p>
+
+</div>
+
+<!-- UNIT NAVIGATION -->
+
+<div class="nav-buttons">
+
+<a href="Unit1.html" class="btn">Unit 1</a>
+<a href="Unit3.html" class="btn">Unit 3</a>
+<a href="Unit4.html" class="btn">Unit 4</a>
+<a href="Unit5.html" class="btn">Unit 5</a>
+
+</div>
+
+</div>
+
+<footer>
+BCA Web Technology Project | Computer Networks
+</footer>
+
+</body>
+</html>

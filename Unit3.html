@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Unit 3 - LAN Technologies</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI;
+}
+
+body{
+background:linear-gradient(135deg,#667eea,#764ba2);
+color:white;
+min-height:100vh;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:rgba(255,255,255,0.1);
+backdrop-filter:blur(10px);
+}
+
+nav h1{
+font-size:26px;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+font-weight:bold;
+}
+
+/* MAIN CONTAINER */
+
+.container{
+width:85%;
+margin:auto;
+margin-top:40px;
+}
+
+/* CONTENT CARD */
+
+.card{
+background:rgba(255,255,255,0.15);
+backdrop-filter:blur(10px);
+padding:30px;
+border-radius:15px;
+box-shadow:0 10px 20px rgba(0,0,0,0.3);
+}
+
+.card h2{
+margin-bottom:15px;
+}
+
+.card p{
+line-height:1.7;
+font-size:15px;
+margin-bottom:15px;
+}
+
+/* UNIT NAVIGATION */
+
+.nav-buttons{
+margin-top:40px;
+display:flex;
+flex-wrap:wrap;
+gap:15px;
+justify-content:center;
+}
+
+.btn{
+text-decoration:none;
+padding:10px 20px;
+border-radius:25px;
+background:#ff4b2b;
+color:white;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#ffcc00;
+color:black;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+margin-top:50px;
+padding:20px;
+opacity:0.8;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav>
+<h1><i class="fa-solid fa-network-wired"></i> Computer Networks</h1>
+<a href="index.html">Home</a>
+</nav>
+
+<div class="container">
+
+<div class="card">
+
+<h2><i class="fa-solid fa-wifi"></i> Unit 3: LAN Technologies and Wireless Networks</h2>
+
+<p>
+Random access protocols allow multiple devices to access the communication channel without predefined control mechanisms. Devices compete for channel access and transmit data whenever the channel is available. Examples include ALOHA and Carrier Sense Multiple Access (CSMA).
+</p>
+
+<p>
+Controlled access protocols regulate how devices share the communication medium by assigning transmission turns to devices. Techniques such as polling and token passing ensure orderly and fair access to the communication channel.
+</p>
+
+<p>
+Channelization divides a communication channel into smaller channels so multiple devices can transmit simultaneously. Techniques such as Frequency Division Multiple Access (FDMA), Time Division Multiple Access (TDMA), and Code Division Multiple Access (CDMA) are commonly used.
+</p>
+
+<p>
+IEEE standards define specifications for networking technologies. These standards ensure compatibility and interoperability among networking devices. The IEEE 802 family of standards specifically defines LAN and MAN technologies.
+</p>
+
+<p>
+Ethernet is the most widely used LAN technology. It supports communication using frames and typically uses a star topology. Fast Ethernet increases the speed up to 100 Mbps, while Gigabit Ethernet provides speeds up to 1000 Mbps.
+</p>
+
+<p>
+Wireless LANs enable devices to connect without physical cables using radio frequency signals. Wi-Fi technology allows laptops, smartphones, and other devices to access networks wirelessly in homes, offices, and public spaces.
+</p>
+
+<p>
+Connecting LANs requires networking devices such as bridges, switches, and routers. Backbone networks provide high-speed connections that link multiple LAN segments together.
+</p>
+
+<p>
+Virtual LANs (VLANs) allow administrators to logically divide a physical network into multiple virtual networks. VLANs improve security, performance, and traffic management.
+</p>
+
+<p>
+Wireless WAN technologies support long-distance wireless communication using cellular networks and satellite communication systems. Technologies such as SONET, Frame Relay, and ATM are used for high-speed data transmission across wide area networks.
+</p>
+
+</div>
+
+<!-- NAVIGATION TO OTHER UNITS -->
+
+<div class="nav-buttons">
+
+<a href="Unit1.html" class="btn">Unit 1</a>
+<a href="Unit2.html" class="btn">Unit 2</a>
+<a href="Unit4.html" class="btn">Unit 4</a>
+<a href="Unit5.html" class="btn">Unit 5</a>
+
+</div>
+
+</div>
+
+<footer>
+BCA Web Technology Project | Computer Networks
+</footer>
+
+</body>
+</html>
